@@ -1,0 +1,79 @@
+body {
+    font-size: 12pt;
+}
+
+table.mainTable {
+    margin: auto;
+    width: 60%;
+    border-collapse: collapse;
+}
+#sidebar {
+    width: 15%;
+    vertical-align: top;
+    background-image: linear-gradient(#e5e5f7, #FFFFFF);
+    border-top: none;
+}
+ul {
+    list-style: none;
+    text-align: left;
+    line-height: 1.5;
+}
+li span {
+    position: relative;
+    
+}
+td.mainTable {
+    padding: 2%;
+    padding-left: 4%;
+    padding-right: 6%;
+}
+td.mainTable, th.mainTable {
+    border: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+table.nestTable {
+    border-collapse: collapse;
+    width: 70%;
+}
+
+th.nestTable, td.nestTable {
+    border: 1px solid black;
+    width: 20%;
+}
+
+.demoName {
+    font-size: 14pt;
+}
+
+#title {
+    text-align: left;
+    padding: 0.5% 2%;
+    background-image: linear-gradient(#cbc7fb, #e5e5f7);
+    border-right: none;
+    border-bottom: none;
+}
+#titleLogo {
+    text-align: left;
+    padding: 0.5% 2%;
+    background-image: linear-gradient(#cbc7fb, #e5e5f7);
+    border-left: none;
+}
+#titleText {
+    float: left;
+}
+
+.codeblock {
+    font-size: 10pt;
+    display: inline-block;
+    background-color: #eee;
+    border: 1px solid black;
+    padding: 1px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.footer {
+    font-size: 10pt;
+    padding: 0;
+    height: 2%;
+}
