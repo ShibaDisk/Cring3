@@ -1,5 +1,6 @@
 # Cring3
 All of the information here is also avaliable in the manual. A list of instructions and how to use them can be found there.
+The Cringepiler (Compiler for Cring3 files) is written in C++, the reason its labeled javascript is from the manual, which uses it so that every page doesn't need to be a seperate file.
 
 ## Basics
 Cring3 is a idiotic programming language designed to be as obtuse as possible. In Cring3, every instruction and arguement must also be 
@@ -22,7 +23,7 @@ likely do not even know this exists). Download the latest bin zip, and extract t
 
 ## Usage
 Using the Cringepiler is very simple. First, move your Cring3 file (.pog) into the folder with the Cringepiler and CrMake.bat file. Then, 
-either drag and drop the Cring3 file onto `CrMake.bat`, or use the command line, and in the folder execute `CrMake.bat [file name]`. 
+either drag and drop the Cring3 file onto `CrMake.bat` (not included in the source,  all it does is run the Cringepiler to make a C file, then TCC to make an exe), or use the command line, and in the folder execute `CrMake.bat [file name]`. 
 This will create both a `out.c` file and an `out.exe`, you only NEED `out.exe`, but `out.c` is left to make debugging easier. The Cringepiler itself will only catch errors with 
 Cring3, not with the translated C, which should not be a problem, since GOOD programmers do everything right the first time always. If you can't handle that, 
 go back to [Scratch](https://scratch.mit.edu/), you cringe ass nae nae baby, you goddamn disappointment.
