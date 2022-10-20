@@ -25,5 +25,4 @@ likely do not even know this exists). Download the latest bin zip, and extract t
 Using the Cringepiler is very simple. First, move your Cring3 file (.pog) into the folder with the Cringepiler and CrMake.bat file. Then, 
 either drag and drop the Cring3 file onto `CrMake.bat` (not included in the source,  all it does is run the Cringepiler to make a C file, then TCC to make an exe), or use the command line, and in the folder execute `CrMake.bat [file name]`. 
 This will create both a `out.c` file and an `out.exe`, you only NEED `out.exe`, but `out.c` is left to make debugging easier. The Cringepiler itself will only catch errors with 
-Cring3, not with the translated C, which should not be a problem, since GOOD programmers do everything right the first time always. If you can't handle that, 
-go back to [Scratch](https://scratch.mit.edu/), you cringe ass nae nae baby, you goddamn disappointment.
+Cring3, not with the translated C, which should not be a problem, since GOOD programmers do everything right the first time always.
